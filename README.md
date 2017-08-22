@@ -13,7 +13,11 @@ package main
 import "github.com/martinlindhe/notify"
 
 func main() {
-	notify.Notify("app name", "title", "subtitle", "path/to/icon.png"))
+	// show a notification
+	notify.Notify("app name", "notice", "some text", "path/to/icon.png"))
+
+	// show a notification and play a alert sound
+	notify.Alert("app name", "alert", "some text", "path/to/icon.png"))
 }
 ```
 
