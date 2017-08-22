@@ -38,7 +38,8 @@ Uses terminal-notifier provided by https://github.com/deckarep/gosx-notifier
 
 ### Linux
 
-Uses the notify-send command (Gnome, KDE etc)
+Uses the notify-send and paplay commands,
+both should be available on a default Ubuntu installation
 
 ![Linux](linux.png)
 
