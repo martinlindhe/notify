@@ -6,7 +6,7 @@ import (
 	"github.com/deckarep/gosx-notifier"
 )
 
-// Notify ...
+// Notify displays a desktop notification
 func Notify(appName string, title string, text string, iconPath string) {
 	head := ""
 	if text == "" {

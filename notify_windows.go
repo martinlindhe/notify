@@ -6,7 +6,7 @@ import (
 	toast "gopkg.in/toast.v1"
 )
 
-// Notify ...
+// Notify displays a desktop notification
 func Notify(appName string, title string, text string, iconPath string) {
 	notification := toast.Notification{
 		AppID:   appName,
