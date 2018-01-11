@@ -1,3 +1,7 @@
+# Deprecated
+
+This package is deprecated, please use [beeep](https://github.com/gen2brain/beeep) by @gen2brain instead!
+
 # About
 
 [![GoDoc](https://godoc.org/github.com/martinlindhe/notify?status.svg)](https://godoc.org/github.com/martinlindhe/notify)
